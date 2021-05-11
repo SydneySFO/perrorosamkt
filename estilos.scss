@@ -1,0 +1,54 @@
+$default_color: pink;
+$background-color: #FFC0CB;
+
+
+
+
+div {
+	background-color: $default_color
+	color: $default_color;
+
+	p {
+		text-align: center; 
+		color: red;
+	}
+
+
+span {
+	color: $default_color
+}
+
+span {
+	color: $default_color
+}
+
+$fondo: FFC0CB;
+
+
+div {
+
+	@if $fondo == black {
+		color:red;
+	}
+}
+
+.element {
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+	
+	&:hover {
+		background-color: red;
+
+	}
+
+
+	div {
+		color: red;
+	}
+}
+
+.otro-elemento {
+
+}
+

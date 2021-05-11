@@ -1,0 +1,18 @@
+div {
+  color: pink; }
+  div p {
+    text-align: center;
+    color: red; }
+
+span {
+  color: pink; }
+
+span {
+  color: pink; }
+
+.element {
+  color: red;
+  text-align: center;
+  text-decoration: underline; }
+  .element div {
+    color: red; }
